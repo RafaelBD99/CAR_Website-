@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Auto Marketplace</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">Premium<span>Auto</span></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="inventory.html">Inventory</a></li>
+          <li><a href="manufacturers.html">Manufacturers</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Find Your Dream Car</h1>
+      <p>Browse our extensive collection of premium automobiles from top manufacturers</p>
+    </section>
+    
+    <section class="search-filter">
+      <h2>Search Inventory</h2>
+      <div class="filter-controls">
+        <select id="make">
+          <option value="">All Makes</option>
+          <option value="audi">Audi</option>
+          <option value="bmw">BMW</option>
+          <option value="mercedes">Mercedes-Benz</option>
+          <option value="toyota">Toyota</option>
+          <option value="honda">Honda</option>
+          <option value="ford">Ford</option>
+          <option value="chevrolet">Chevrolet</option>
+        </select>
+        <select id="model">
+          <option value="">All Models</option>
+        </select>
+        <select id="year">
+          <option value="">All Years</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+        </select>
+        <select id="price">
+          <option value="">Price Range</option>
+          <option value="0-20000">$0 - $20,000</option>
+          <option value="20000-40000">$20,000 - $40,000</option>
+          <option value="40000-60000">$40,000 - $60,000</option>
+          <option value="60000+">$60,000+</option>
+        </select>
+      </div>
+      <button class="search-btn">Search Cars</button>
+    </section>
+    
+    <section class="manufacturers">
+      <h2>Browse by Manufacturer</h2>
+      <div class="manufacturer-logos">
+        <div class="manufacturer-logo">
+          <img src="/api/placeholder/70/70" alt="Audi">
+        </div>
+        <div class="manufacturer-logo">
+          <img src="/api/placeholder/70/70" alt="BMW">
+        </div>
+        <div class="manufacturer-logo">
+          <img src="/api/placeholder/70/70" alt="Mercedes">
+        </div>
+        <div class="manufacturer-logo">
+          <img src="/api/placeholder/70/70" alt="Toyota">
+        </div>
+        <div class="manufacturer-logo">
+          <img src="/api/placeholder/70/70" alt="Honda">
+        </div>
+        <div class="manufacturer-logo">
+          <img src="/api/placeholder/70/70" alt="Ford">
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <h2>Featured Vehicles</h2>
+      <div class="car-grid">
+        <!-- Car Card Example -->
+        <div class="car-card">
+          <div class="car-image" style="background-image: url('/api/placeholder/300/200')">
+            <span class="car-tag">New Arrival</span>
+          </div>
+          <div class="car-info">
+            <div class="car-title">2024 Audi Q5</div>
+            <div class="car-subtitle">Premium Plus Quattro</div>
+            <div class="car-specs">
+              <div class="spec-item">2.0L Turbo</div>
+              <div class="spec-item">261 HP</div>
+              <div class="spec-item">AWD</div>
+              <div class="spec-item">24 MPG</div>
+            </div>
+            <div class="car-price">$49,800</div>
+            <a href="details.html" class="car-btn">View Details</a>
+          </div>
+        </div>
+        <!-- More car cards can be added here -->
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>About Premium Auto</h3>
+        <ul>
+          <li><a href="#">Company Info</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Customer Service</h3>
+        <ul>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2025 Premium Auto Marketplace
+    </div>
+  </footer>
+</body>
+</html>
